@@ -6,7 +6,8 @@
     "require": {
         "doctrine/doctrine-bundle": "^1",
         "symfony/flex": "^1.0",
-        "symfony/maker-bundle": "^1"
+        "symfony/maker-bundle": "^1",
+        "symfony/yaml": "^3.4 || ^4.0"
     },
     "require-dev": {
         "symfony/dotenv": "^3.4 || ^4.0"
