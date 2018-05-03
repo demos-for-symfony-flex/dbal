@@ -29,9 +29,10 @@ before_install:
   fi
 
 install:
-- composer install
+# - composer install
 
-script: true
+script:
+- !(composer install)
 
 after_script:
 - ls --color
