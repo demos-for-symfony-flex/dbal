@@ -32,7 +32,7 @@ install:
 # - composer install
 
 script:
-- !(composer install)
+- (! composer install)
 
 after_script:
 - ls --color
